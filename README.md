@@ -1,73 +1,63 @@
-# Welcome to your Lovable project
+Pariwar+ – Together in Care
 
-## Project info
+A smart family health management web app to track medications, appointments, documents, expenses, and emergency info for every family member. Each user logs in with their own email and sees only their own data.
 
-**URL**: https://lovable.dev/projects/748768d8-9afa-46e4-9d62-07007361fc0d
+Features
 
-## How can I edit this code?
+User authentication (register, login, logout)
 
-There are several ways of editing your application.
+Role-based dashboard (Self, Parent, Child, etc.)
 
-**Use Lovable**
+Medicine reminders with “mark as taken”
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/748768d8-9afa-46e4-9d62-07007361fc0d) and start prompting.
+Appointment & vaccination tracker
 
-Changes made via Lovable will be committed automatically to this repo.
+Upload & organize medical documents
 
-**Use your preferred IDE**
+Medical history timeline (visual charts)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Emergency health card with QR code download
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Expense tracker with monthly summaries
 
-Follow these steps:
+Per‑member email access and notifications
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Setup (Frontend & Backend)
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Clone the repo
 
-# Step 3: Install the necessary dependencies.
-npm i
+git clone https://github.com/mahekraigagla/smart-family-health.git
+cd smart-family-health
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Frontend
 
-**Edit a file directly in GitHub**
+Install dependencies: npm install
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Start development server: npm run dev
 
-**Use GitHub Codespaces**
+Open browser at http://localhost:5173
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Backend
 
-## What technologies are used for this project?
+Install XAMPP and start Apache & MySQL
 
-This project is built with:
+Copy the backend/ folder into XAMPP’s htdocs (e.g., C:/xampp/htdocs/pariwar-plus-backend)
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Open phpMyAdmin (http://localhost/phpmyadmin), create database pariwar_plus, and import backend/database.sql
 
-## How can I deploy this project?
+Update backend/db.php with your MySQL credentials
 
-Simply open [Lovable](https://lovable.dev/projects/748768d8-9afa-46e4-9d62-07007361fc0d) and click on Share -> Publish.
+Run & Test
 
-## Can I connect a custom domain to my Lovable project?
+Use Postman or your React frontend to test API endpoints at http://localhost/pariwar-plus-backend/
 
-Yes, you can!
+Deploy
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Frontend: Build (npm run build) and deploy the dist/ folder to any static host (Netlify, Vercel, GitHub Pages).
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Backend: Upload the backend/ folder and database to a PHP + MySQL host (000Webhost, InfinityFree).
+
+License
+
+MIT © Mahek Raigagla
+
