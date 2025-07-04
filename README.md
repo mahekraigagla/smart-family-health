@@ -2,7 +2,7 @@ Pariwar+ – Together in Care
 
 A smart family health management web app to track medications, appointments, documents, expenses, and emergency info for every family member. Each user logs in with their own email and sees only their own data.
 
-Features
+🔹 Features
 
 User authentication (register, login, logout)
 
@@ -22,9 +22,9 @@ Expense tracker with monthly summaries
 
 Per‑member email access and notifications
 
-Setup (Frontend & Backend)
+⚙️ Setup (Frontend & Backend)
 
-Clone the repo
+Clone the repository
 
 git clone https://github.com/mahekraigagla/smart-family-health.git
 cd smart-family-health
@@ -33,9 +33,9 @@ Frontend
 
 Install dependencies: npm install
 
-Start development server: npm run dev
+Start dev server: npm run dev
 
-Open browser at http://localhost:5173
+Open http://localhost:5173 in your browser
 
 Backend
 
@@ -51,13 +51,13 @@ Run & Test
 
 Use Postman or your React frontend to test API endpoints at http://localhost/pariwar-plus-backend/
 
-Deploy
+🚀 Deploy
 
-Frontend: Build (npm run build) and deploy the dist/ folder to any static host (Netlify, Vercel, GitHub Pages).
+Frontend: Build with npm run build and deploy the dist/ folder to any static host (Netlify, Vercel, GitHub Pages).
 
 Backend: Upload the backend/ folder and database to a PHP + MySQL host (000Webhost, InfinityFree).
 
-License
+📄 License
 
 MIT © Mahek Raigagla
 
